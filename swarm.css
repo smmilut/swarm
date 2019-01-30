@@ -1,0 +1,70 @@
+body {
+    background-color: #353839;
+	color: #D9D6CF;
+	font-size: 100%;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#view {
+	position: relative;
+	display: inline-block;
+    background-color: #808080;
+    padding: 0px;
+	border: 0px;
+	margin: 0px;
+}
+
+#view svg {
+	background-color: transparent;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+}
+
+#view img {
+	display: none;
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+}
+
+#view canvas {
+	display: block;
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+}
+
+.dude circle {
+	fill: yellow;
+}
+
+.dude line {
+	stroke: black;
+}
+
+#objectControls {
+	float: right;
+}
+
+button {
+	color: #444;
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 70px;
+	height: 30px;
+	border: none;
+	border-radius: 3px;
+	padding: 4px 5px;
+	text-decoration: none;
+	margin: 4px 5px;
+	cursor: pointer;
+	transition-duration: 0.4s;
+}
+
+button:hover {
+	color: #DDD;
+	background-color: rgba(20, 20, 20, 0.7);
+}

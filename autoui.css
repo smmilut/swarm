@@ -1,0 +1,76 @@
+.autoui {
+	color: #333;
+	background-color: rgba(220, 220, 220, 0.3);
+	border-radius: 5px;
+	padding: 5px 10px;
+	margin: 5px 0px;
+}
+
+.autoui li {
+	list-style-type: none;
+	background-color: rgba(220, 220, 220, 0.3);
+	border-radius: 5px;
+	padding: 5px 10px;
+	margin: 5px 0px;
+	transition-duration: 0.4s;
+}
+
+.autoui li:hover {
+	color: #DDD;
+	background-color: rgba(20, 20, 20, 0.7);
+}
+
+.autoui li:hover label {
+	color: #DDD;
+}
+
+.autoui label {
+	color: #555;
+	transition-duration: 0.4s;
+}
+
+.autoui input {
+	color: #333;
+	background-color: #FAFAFA;
+	border-style: solid;
+	border-width: 1px;
+	border-color: transparent;
+	padding: 1px 2px;
+	text-decoration: none;
+	margin: 0px 2px;
+	transition-duration: 0.4s;
+}
+
+.autoui input:hover {
+	border-color: rgba(128, 128, 128, 0.5);
+}
+
+.autoui input::selection {
+	color: #DDD;
+	background-color: #444;
+}
+
+.autoui input[type=number] {
+	text-align: right;
+	width: 70px;
+}
+
+.autoui button {
+	color: #444;
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 20px;
+	height: 20px;
+	font-size: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 0px 1px;
+	text-decoration: none;
+	margin: 0px 2px;
+	cursor: pointer;
+	transition-duration: 0.4s;
+}
+
+.autoui button:hover {
+	color: #DDD;
+	background-color: rgba(20, 20, 20, 0.7);
+}
